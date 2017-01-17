@@ -1,3 +1,16 @@
+## This fork - Notes
+
+Tested and working for AWS EC2 Instance (running Ubuntu 14.04) - GPU Instace g2.2xlarge
+
+Dockerfile_caffeCaptions.gpu for running https://github.com/Evolving-AI-Lab/ppgn example 5  (captions to image generation)
+Using https://github.com/anguyen8/caffe_lrcn with Cuda7.5+Cudnn3
+7.1gb
+
+Dockerfile.gpu
+Using Cuda8+Cudnn5
+8.9gb
+
+
 ## All-in-one Docker image for Deep Learning
 Here are Dockerfiles to get you up and running with a fully functional deep learning machine. It contains all the popular deep learning frameworks with CPU and GPU support (CUDA and cuDNN included). The CPU version should work on Linux, Windows and OS X. The GPU version will, however, only work on Linux machines. See [OS support](#what-operating-systems-are-supported) for details
 
